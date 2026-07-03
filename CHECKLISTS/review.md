@@ -1,69 +1,69 @@
 # Review Checklist
 
-Use this checklist after implementation, for a patch, pull request, or completed module.
+当实现完成后，或需要检查 Patch、Pull Request、已完成模块时，使用这个 Checklist。
 
-## Goal
+## 目标
 
-Verify that the work is correct, scoped, safe, and ready for the next step.
+验证工作是否正确、范围是否受控、是否安全，并判断是否可以进入下一步。
 
-## Checkpoints
+## 检查项
 
-### Requirement Match
+### 需求匹配
 
-- [ ] Does the implementation satisfy the requirement?
-- [ ] Are all acceptance criteria covered?
-- [ ] Are any requested behaviors missing?
-- [ ] Did the implementation add unrequested behavior?
+- [ ] 实现是否满足需求？
+- [ ] 是否覆盖所有验收标准？
+- [ ] 是否遗漏了请求的行为？
+- [ ] 是否增加了未请求的行为？
 
-### Design Match
+### 设计匹配
 
-- [ ] Does the implementation follow the approved design?
-- [ ] If it diverges, is the reason explained?
-- [ ] Are interfaces and data structures consistent with the design?
+- [ ] 实现是否遵循已确认的设计？
+- [ ] 如果偏离设计，是否说明了原因？
+- [ ] 接口和数据结构是否与设计一致？
 
-### Scope and Maintainability
+### 范围与可维护性
 
-- [ ] Are changes limited to relevant files?
-- [ ] Is there unnecessary refactoring?
-- [ ] Is there duplicated logic?
-- [ ] Is naming clear?
-- [ ] Is the code maintainable?
+- [ ] 修改是否限制在相关文件内？
+- [ ] 是否存在不必要的重构？
+- [ ] 是否存在重复逻辑？
+- [ ] 命名是否清晰？
+- [ ] 代码是否可维护？
 
-### Security and Permissions
+### 安全与权限
 
-- [ ] Are permission checks correct?
-- [ ] Is sensitive data protected?
-- [ ] Are inputs validated?
-- [ ] Are errors handled safely?
+- [ ] 权限检查是否正确？
+- [ ] 敏感数据是否受到保护？
+- [ ] 输入是否经过校验？
+- [ ] 错误处理是否安全？
 
-### Edge Cases
+### 边界情况
 
-- [ ] Empty data
-- [ ] Invalid input
-- [ ] Unauthorized access
-- [ ] External service failure
-- [ ] Duplicate data
-- [ ] Boundary values
+- [ ] 空数据
+- [ ] 无效输入
+- [ ] 未授权访问
+- [ ] 外部服务失败
+- [ ] 重复数据
+- [ ] 边界值
 
-### Tests and Validation
+### 测试与验证
 
-- [ ] Were tests added or updated?
-- [ ] Were relevant tests run?
-- [ ] Was build/typecheck/lint run if available?
-- [ ] If not, is the reason explained?
+- [ ] 是否新增或更新测试？
+- [ ] 是否运行了相关测试？
+- [ ] 如果可用，是否运行了构建、类型检查或 Lint？
+- [ ] 如果没有运行，是否说明原因？
 
-### Documentation
+### 文档
 
-- [ ] Does requirement/design need updating?
-- [ ] Does architecture need updating?
-- [ ] Is an ADR needed for a significant decision?
+- [ ] 是否需要更新需求或设计？
+- [ ] 是否需要更新架构文档？
+- [ ] 是否需要为重要决策补充 ADR？
 
-## Output
+## 输出
 
-Review result should include:
+Review 结果应包含：
 
-- verdict: pass / needs changes / high risk
-- issues found
-- required fixes
-- optional improvements
-- validation status
+- 结论：通过 / 需要修改 / 高风险
+- 发现的问题
+- 必须修复的内容
+- 可选优化建议
+- 验证状态
