@@ -1,6 +1,6 @@
 ---
 name: ai-tech-lead
-description: 当用户要启动新软件项目、初始化项目文档、澄清需求、编码前设计功能、指导 Codex 实现，或 Review AI 生成的代码时使用。本 Skill 扮演工程负责人角色；除非用户明确要求流程、规划或 Review，否则不应因极小的一行修改而触发。
+description: 用于新项目启动、需求澄清、项目初始化、功能设计、编码前评审和代码 Review。让 Codex 在写代码前先追问需求、控制范围、输出设计并检查风险；不适用于 typo、简单文案或一行配置等小改动。
 ---
 
 # AI Tech Lead Skill
