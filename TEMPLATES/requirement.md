@@ -1,65 +1,65 @@
-# Requirement: <Feature or Module Name>
+# 需求文档：<功能或模块名称>
 
-## 1. Background
+## 1. 背景
 
-Explain why this feature/module is needed.
+说明为什么需要这个功能或模块。
 
-## 2. Goal
+## 2. 目标
 
-Describe the expected outcome.
+描述预期达到的结果。
 
-## 3. Actors
+## 3. 使用者
 
-- Actor 1:
-- Actor 2:
+- 使用者 1：
+- 使用者 2：
 
-## 4. Scope
+## 4. 范围
 
-### In Scope
-
-- 
-
-### Out of Scope
+### 包含
 
 - 
 
-## 5. Functional Requirements
-
-### Requirement 1: <Name>
-
-- Description:
-- Input:
-- Output:
-- Rules:
-
-### Requirement 2: <Name>
-
-- Description:
-- Input:
-- Output:
-- Rules:
-
-## 6. Permission Rules
+### 不包含
 
 - 
 
-## 7. Edge Cases
+## 5. 功能需求
+
+### 需求 1：<名称>
+
+- 描述：
+- 输入：
+- 输出：
+- 规则：
+
+### 需求 2：<名称>
+
+- 描述：
+- 输入：
+- 输出：
+- 规则：
+
+## 6. 权限规则
 
 - 
 
-## 8. Non-functional Requirements
+## 7. 边界情况
 
-- Performance:
-- Security:
-- Logging/audit:
-- Compatibility:
+- 
 
-## 9. Acceptance Criteria
+## 8. 非功能需求
+
+- 性能：
+- 安全：
+- 日志/审计：
+- 兼容性：
+
+## 9. 验收标准
 
 - [ ] 
 - [ ] 
 - [ ] 
 
-## 10. Open Questions
+## 10. 待确认问题
 
 - 
