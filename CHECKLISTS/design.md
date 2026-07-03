@@ -1,69 +1,69 @@
 # Design Checklist
 
-Use this checklist after the requirement is clear and before coding non-trivial work.
+当需求已经清楚，并且即将进行非简单编码工作之前，使用这个 Checklist。
 
-## Goal
+## 目标
 
-Produce a reviewable design that explains how the requirement will be implemented safely.
+输出一份可 Review 的设计方案，说明如何安全实现需求。
 
-## Checkpoints
+## 检查项
 
-### Requirement Alignment
+### 需求对齐
 
-- [ ] Does the design directly satisfy the requirement?
-- [ ] Are all acceptance criteria covered?
-- [ ] Are excluded items still excluded?
+- [ ] 设计是否直接满足需求？
+- [ ] 是否覆盖所有验收标准？
+- [ ] 已排除的内容是否仍然排除？
 
-### Module Boundary
+### 模块边界
 
-- [ ] Which module owns this feature?
-- [ ] Which files/directories are likely affected?
-- [ ] Are module boundaries clear?
-- [ ] Are cross-module calls necessary and justified?
+- [ ] 哪个模块负责这个功能？
+- [ ] 可能影响哪些文件或目录？
+- [ ] 模块边界是否清晰？
+- [ ] 是否需要跨模块调用？是否合理？
 
-### Interfaces
+### 接口
 
-- [ ] Are API endpoints, commands, functions, or UI events defined?
-- [ ] Are inputs and outputs clear?
-- [ ] Are error responses clear?
-- [ ] Are DTOs/types/contracts needed?
+- [ ] API、命令、函数或 UI 事件是否明确？
+- [ ] 输入和输出是否清楚？
+- [ ] 错误响应是否清楚？
+- [ ] 是否需要 DTO、类型或契约？
 
-### Data Model
+### 数据模型
 
-- [ ] What data is created, read, updated, or deleted?
-- [ ] Are schema changes needed?
-- [ ] Is migration needed?
-- [ ] Are indexes or constraints needed?
+- [ ] 会创建、读取、更新或删除哪些数据？
+- [ ] 是否需要修改 Schema？
+- [ ] 是否需要 Migration？
+- [ ] 是否需要索引或约束？
 
-### Flow
+### 流程
 
-- [ ] What is the main success path?
-- [ ] What are the failure paths?
-- [ ] What permission checks happen and where?
-- [ ] Are external service calls involved?
+- [ ] 主要成功路径是什么？
+- [ ] 失败路径有哪些？
+- [ ] 权限检查在哪里发生？
+- [ ] 是否涉及外部服务调用？
 
-### Risk
+### 风险
 
-- [ ] What can break existing behavior?
-- [ ] What might cause security or permission issues?
-- [ ] What parts are uncertain?
-- [ ] What should be validated before or during implementation?
+- [ ] 什么可能破坏现有行为？
+- [ ] 什么可能造成安全或权限问题？
+- [ ] 哪些部分仍然不确定？
+- [ ] 实现前或实现中应该验证什么？
 
-### Test Strategy
+### 测试策略
 
-- [ ] What unit tests are needed?
-- [ ] What integration tests are needed?
-- [ ] What manual verification is needed?
-- [ ] What existing tests should be run?
+- [ ] 需要哪些单元测试？
+- [ ] 需要哪些集成测试？
+- [ ] 需要哪些人工验证？
+- [ ] 应该运行哪些现有测试？
 
-### Task Split
+### 任务拆分
 
-- [ ] Can the implementation be split into small tasks?
-- [ ] Are any tasks safely parallelizable?
-- [ ] Which task should be done first?
+- [ ] 实现是否可以拆成小任务？
+- [ ] 是否有任务可以安全并行？
+- [ ] 应该先做哪个任务？
 
-## Output
+## 输出
 
-Produce a design document using `TEMPLATES/design.md`.
+使用 `TEMPLATES/design.md` 生成设计文档。
 
-Do not start coding until the user confirms the design, unless the user explicitly asks to skip design.
+除非用户明确要求跳过设计，否则在用户确认设计前不要开始编码。
