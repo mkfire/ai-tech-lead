@@ -60,10 +60,10 @@ Keep the project familiar. Put the intelligence in the skill, not in a strange p
 
 ### Option A: User-level Skill
 
-Copy this repository or the skill folder into your Codex user skills directory, for example:
+Copy this repository or the skill folder into your user skills directory:
 
 ```text
-~/.codex/skills/ai-tech-lead/
+~/.agents/skills/ai-tech-lead/
 ```
 
 ### Option B: Repository-level Skill
