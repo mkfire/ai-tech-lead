@@ -1,61 +1,61 @@
 # Requirement Checklist
 
-Use this checklist before designing or coding a feature/module.
+在设计或编码某个功能/模块之前，使用这个 Checklist。
 
-## Goal
+## 目标
 
-Turn a feature idea into a requirement that is specific enough to design and test.
+把功能想法整理成足够具体、可以设计和测试的需求。
 
-## Checkpoints
+## 检查项
 
-### Business Goal
+### 业务目标
 
-- [ ] What problem does this feature solve?
-- [ ] Who needs it?
-- [ ] Why is it needed now?
+- [ ] 这个功能解决什么问题？
+- [ ] 谁需要这个功能？
+- [ ] 为什么现在需要它？
 
-### Scope
+### 范围
 
-- [ ] What is included?
-- [ ] What is excluded?
-- [ ] What is the smallest useful version?
+- [ ] 包含什么？
+- [ ] 不包含什么？
+- [ ] 最小可用版本是什么？
 
-### Actors and Permissions
+### 使用者与权限
 
-- [ ] Who can use this feature?
-- [ ] Are there roles or permission differences?
-- [ ] What data can each role see or modify?
+- [ ] 谁可以使用这个功能？
+- [ ] 是否存在角色或权限差异？
+- [ ] 每个角色可以查看或修改哪些数据？
 
-### Functional Behavior
+### 功能行为
 
-- [ ] What actions can the user perform?
-- [ ] What data is required?
-- [ ] What is the expected result of each action?
-- [ ] Does the feature need search, filter, pagination, export, import, notification, or approval?
+- [ ] 用户可以执行哪些操作？
+- [ ] 需要哪些数据？
+- [ ] 每个操作的预期结果是什么？
+- [ ] 是否需要搜索、筛选、分页、导出、导入、通知或审批？
 
-### Edge Cases
+### 边界情况
 
-- [ ] What happens when data is missing?
-- [ ] What happens with invalid input?
-- [ ] What happens when the user lacks permission?
-- [ ] What happens when external services fail?
-- [ ] What happens with duplicate or stale data?
+- [ ] 数据缺失时怎么办？
+- [ ] 输入无效时怎么办？
+- [ ] 用户没有权限时怎么办？
+- [ ] 外部服务失败时怎么办？
+- [ ] 出现重复或过期数据时怎么办？
 
-### Non-functional Requirements
+### 非功能需求
 
-- [ ] Are there performance requirements?
-- [ ] Are there security requirements?
-- [ ] Are there audit/logging requirements?
-- [ ] Are there compatibility constraints?
+- [ ] 是否有性能要求？
+- [ ] 是否有安全要求？
+- [ ] 是否有审计/日志要求？
+- [ ] 是否有兼容性约束？
 
-### Acceptance Criteria
+### 验收标准
 
-- [ ] How will the user know this is done?
-- [ ] What test cases must pass?
-- [ ] What should be manually verified?
+- [ ] 用户如何判断这个功能完成了？
+- [ ] 哪些测试用例必须通过？
+- [ ] 哪些内容需要人工验证？
 
-## Output
+## 输出
 
-Produce a requirement document using `TEMPLATES/requirement.md`.
+使用 `TEMPLATES/requirement.md` 生成需求文档。
 
-If important information is missing, ask focused questions before writing the final requirement.
+如果重要信息缺失，先提出聚焦问题，再生成最终需求。
