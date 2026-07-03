@@ -56,6 +56,23 @@ project/
 
 让项目结构保持熟悉。把复杂逻辑放在 Skill 里，而不是暴露成奇怪的项目目录。
 
+## 最快使用方式
+
+1. 把本仓库复制到用户级 Skills 目录：
+
+```text
+~/.agents/skills/ai-tech-lead/
+```
+
+2. 在 Codex 里输入：
+
+```text
+Use the AI Tech Lead skill.
+我想做一个新项目。请先帮我澄清需求，再推荐项目结构和技术方案。暂时不要写业务代码。
+```
+
+3. 如果是在已有项目里使用，可以把 `AGENTS.template.md` 复制到项目根目录，并改名为 `AGENTS.md`。
+
 ## 在 Codex 中使用
 
 ### 方式 A：用户级 Skill
