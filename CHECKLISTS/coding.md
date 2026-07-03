@@ -1,50 +1,50 @@
 # Coding Checklist
 
-Use this checklist when the requirement and design are ready and the user has approved implementation.
+当需求和设计已经准备好，并且用户已经确认可以实现时，使用这个 Checklist。
 
-## Goal
+## 目标
 
-Implement the requested change with minimal, safe, reviewable modifications.
+用最小、安全、可 Review 的改动实现目标功能。
 
-## Checkpoints
+## 检查项
 
-### Before Coding
+### 编码前
 
-- [ ] Requirement exists or is explicitly waived.
-- [ ] Design exists for non-trivial changes or is explicitly waived.
-- [ ] Affected files/modules are identified.
-- [ ] Test or validation plan is known.
+- [ ] 需求已经存在，或已明确记录用户选择跳过需求。
+- [ ] 对于非简单修改，设计已经存在，或已明确记录用户选择跳过设计。
+- [ ] 已识别受影响文件和模块。
+- [ ] 已明确测试或验证计划。
 
-### Scope Control
+### 范围控制
 
-- [ ] Modify only files needed for the task.
-- [ ] Do not perform unrelated refactors.
-- [ ] Do not rename or restructure modules unless required by design.
-- [ ] Do not change public interfaces unless design says so.
+- [ ] 只修改任务需要的文件。
+- [ ] 不做无关重构。
+- [ ] 除非设计要求，不重命名或重组模块。
+- [ ] 除非设计要求，不修改公开接口。
 
-### Implementation
+### 实现
 
-- [ ] Follow existing project style.
-- [ ] Keep business logic in the appropriate layer.
-- [ ] Validate inputs and handle errors.
-- [ ] Respect permission/security rules.
-- [ ] Keep code readable and maintainable.
+- [ ] 遵循现有项目风格。
+- [ ] 把业务逻辑放在合适的层。
+- [ ] 校验输入并处理错误。
+- [ ] 遵守权限和安全规则。
+- [ ] 保持代码可读、可维护。
 
-### Tests and Validation
+### 测试与验证
 
-- [ ] Add or update tests when practical.
-- [ ] Run relevant tests, lint, typecheck, or build commands when available.
-- [ ] If tests cannot be run, explain why and provide manual validation steps.
+- [ ] 在可行时新增或更新测试。
+- [ ] 运行相关测试、Lint、类型检查或构建命令。
+- [ ] 如果无法运行测试，说明原因并提供人工验证步骤。
 
-### Completion Summary
+### 完成总结
 
-Report:
+报告：
 
-- files changed
-- behavior changed
-- tests/validation run
-- risks or follow-up work
+- 修改了哪些文件
+- 改变了什么行为
+- 运行了哪些测试或验证
+- 剩余风险或后续工作
 
-## Output
+## 输出
 
-Implement code only after this checklist is satisfied or the user explicitly chooses to proceed with recorded risk.
+只有当这个 Checklist 满足，或用户明确选择带风险继续时，才开始实现代码。
