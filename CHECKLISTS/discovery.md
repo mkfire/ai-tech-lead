@@ -1,63 +1,63 @@
 # Discovery Checklist
 
-Use this checklist when the user has a vague project idea or asks to start a new project.
+当用户只有模糊项目想法，或要求启动一个新项目时，使用这个 Checklist。
 
-## Goal
+## 目标
 
-Turn a vague idea into a concise project brief that can guide project initialization and technical planning.
+把模糊想法整理成简洁的项目需求摘要，用于后续项目初始化和技术方案设计。
 
-## Checkpoints
+## 检查项
 
-### Problem and Goal
+### 问题与目标
 
-- [ ] What problem does this project solve?
-- [ ] Who has this problem?
-- [ ] What outcome should the first version achieve?
-- [ ] What would make this project successful?
+- [ ] 这个项目解决什么问题？
+- [ ] 谁遇到了这个问题？
+- [ ] 第一版要达到什么结果？
+- [ ] 什么情况代表这个项目成功了？
 
-### Users and Roles
+### 用户与角色
 
-- [ ] Who will use the system?
-- [ ] Are there different user roles?
-- [ ] Does the project need login?
-- [ ] Does the project need permissions or access control?
+- [ ] 谁会使用这个系统？
+- [ ] 是否存在不同用户角色？
+- [ ] 是否需要登录？
+- [ ] 是否需要权限或访问控制？
 
-### First Version Scope
+### 第一版范围
 
-- [ ] What are the top 3 must-have features?
-- [ ] What is explicitly out of scope for V1?
-- [ ] Which feature should be built first?
-- [ ] Are there features that can be delayed?
+- [ ] 第一版必须做的 3 个功能是什么？
+- [ ] V1 明确不做什么？
+- [ ] 哪个功能应该最先开发？
+- [ ] 哪些功能可以后置？
 
-### Core Workflows
+### 核心流程
 
-- [ ] What are the main user workflows?
-- [ ] What data is created, imported, edited, or viewed?
-- [ ] Are there approval, review, or audit steps?
-- [ ] Are there recurring jobs or background tasks?
+- [ ] 主要用户流程是什么？
+- [ ] 会创建、导入、编辑或查看哪些数据？
+- [ ] 是否存在审批、Review 或审计步骤？
+- [ ] 是否需要定时任务或后台任务？
 
-### Data and Integration
+### 数据与集成
 
-- [ ] Where does the data come from?
-- [ ] Does the project integrate with third-party services?
-- [ ] Does it need file upload, payment, email, messaging, scraping, browser extension, mobile app, or admin panel?
-- [ ] Are there reporting or export requirements?
+- [ ] 数据从哪里来？
+- [ ] 是否需要对接第三方服务？
+- [ ] 是否需要文件上传、支付、邮件、消息、采集、浏览器插件、移动端或管理后台？
+- [ ] 是否需要报表或导出？
 
-### Non-functional Requirements
+### 非功能需求
 
-- [ ] Are there performance expectations?
-- [ ] Are there security or privacy requirements?
-- [ ] Are there deployment constraints?
-- [ ] Is this a prototype, internal tool, SaaS, production system, or enterprise system?
+- [ ] 是否有性能要求？
+- [ ] 是否有安全或隐私要求？
+- [ ] 是否有部署限制？
+- [ ] 这是原型、内部工具、SaaS、生产系统还是企业系统？
 
-### Risks and Unknowns
+### 风险与未知项
 
-- [ ] What is currently unclear?
-- [ ] What decisions could cause major rework later?
-- [ ] What should be validated before coding?
+- [ ] 当前还有什么不清楚？
+- [ ] 哪些决策后续可能导致大返工？
+- [ ] 编码前应该先验证什么？
 
-## Output
+## 输出
 
-After completing discovery, produce `docs/project-brief.md` using `TEMPLATES/project-brief.md`.
+完成 Discovery 后，使用 `TEMPLATES/project-brief.md` 生成 `docs/project-brief.md`。
 
-Do not initialize a project skeleton until the project brief is clear enough to justify the structure.
+在项目需求摘要足够清楚之前，不要初始化项目骨架。
