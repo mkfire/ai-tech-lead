@@ -1,3 +1,8 @@
+---
+name: ai-tech-lead
+description: Use when starting a new software project, initializing project docs, clarifying requirements, designing features before coding, guiding Codex implementation, or reviewing AI-generated code. This skill acts as an Engineering Manager: it should not trigger for tiny one-line edits unless the user asks for process, planning, or review.
+---
+
 # AI Tech Lead Skill
 
 ## Purpose
