@@ -1,70 +1,70 @@
-# Project Brief: <Project Name>
+# 项目需求摘要：<项目名称>
 
-## 1. Project Goal
+## 1. 项目目标
 
-Describe the core problem this project solves and the outcome expected from the first version.
+描述这个项目要解决的核心问题，以及第一版预期达到的结果。
 
-## 2. Target Users
+## 2. 目标用户
 
-- Primary users:
-- Secondary users:
-- Admin or operator roles:
+- 主要用户：
+- 次要用户：
+- 管理员或运营角色：
 
-## 3. V1 Scope
+## 3. V1 范围
 
-### Must Have
-
-- 
-
-### Nice to Have
+### 必须包含
 
 - 
 
-### Out of Scope
+### 可以后置
 
 - 
 
-## 4. Core Workflows
+### 明确不做
 
-### Workflow 1: <Name>
+- 
+
+## 4. 核心流程
+
+### 流程 1：<名称>
 
 1. 
 2. 
 3. 
 
-### Workflow 2: <Name>
+### 流程 2：<名称>
 
 1. 
 2. 
 3. 
 
-## 5. Data and Integrations
+## 5. 数据与集成
 
-- Main data entities:
-- Data sources:
-- Third-party integrations:
-- Import/export needs:
+- 核心数据实体：
+- 数据来源：
+- 第三方集成：
+- 导入/导出需求：
 
-## 6. Permissions
+## 6. 权限
 
-- Roles:
-- Access rules:
-- Sensitive operations:
+- 角色：
+- 访问规则：
+- 敏感操作：
 
-## 7. Non-functional Requirements
+## 7. 非功能需求
 
-- Performance:
-- Security:
-- Deployment:
-- Reliability:
-- Compliance/privacy:
+- 性能：
+- 安全：
+- 部署：
+- 可靠性：
+- 合规/隐私：
 
-## 8. Risks and Unknowns
+## 8. 风险与未知项
 
 - 
 
-## 9. Recommended Next Step
+## 9. 推荐下一步
 
-- Initialize project structure
-- Draft architecture
-- Define first module requirement
+- 初始化项目结构
+- 起草架构文档
+- 定义第一个模块需求
