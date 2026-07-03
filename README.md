@@ -61,8 +61,8 @@ project/
 1. 安装到用户级 Skills 目录：
 
 ```bash
-mkdir -p ~/.agents/skills
-git clone https://github.com/mkfire/ai-tech-lead.git ~/.agents/skills/ai-tech-lead
+mkdir -p ~/.codex/skills
+git clone https://github.com/mkfire/ai-tech-lead.git ~/.codex/skills/ai-tech-lead
 ```
 
 2. 在 Codex 里输入：
@@ -112,7 +112,7 @@ Use the AI Tech Lead skill.
 把这个仓库或 Skill 目录复制到你的用户级 Skills 目录：
 
 ```text
-~/.agents/skills/ai-tech-lead/
+~/.codex/skills/ai-tech-lead/
 ```
 
 ### 方式 B：仓库级 Skill
@@ -121,7 +121,7 @@ Use the AI Tech Lead skill.
 
 ```text
 project/
-└── .agents/
+└── .codex/
     └── skills/
         └── ai-tech-lead/
 ```
