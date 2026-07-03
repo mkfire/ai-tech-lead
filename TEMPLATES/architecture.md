@@ -1,48 +1,48 @@
-# Architecture
+# 架构文档
 
-## 1. Project Type
+## 1. 项目类型
 
-Describe whether this is a simple app, full-stack app, backend service, frontend app, CLI, library, extension, mobile app, monorepo, or another type.
+说明这是简单应用、全栈应用、后端服务、前端应用、CLI、库、浏览器插件、移动端应用、Monorepo，还是其他类型。
 
-## 2. Technology Stack
+## 2. 技术栈
 
-- Frontend:
-- Backend:
-- Database:
-- Auth:
-- Deployment:
-- Testing:
+- 前端：
+- 后端：
+- 数据库：
+- 认证：
+- 部署：
+- 测试：
 
-## 3. System Context
+## 3. 系统上下文
 
-Describe how users, external systems, and this system interact.
+说明用户、外部系统和本系统之间如何交互。
 
-## 4. Module Boundaries
+## 4. 模块边界
 
-| Module | Responsibility | Notes |
+| 模块 | 职责 | 备注 |
 |---|---|---|
 |  |  |  |
 
-## 5. Data Model Overview
+## 5. 数据模型概览
 
-List core entities and relationships.
+列出核心实体及其关系。
 
-## 6. API / Interface Strategy
+## 6. API / 接口策略
 
-Describe how modules, frontend/backend, or external systems communicate.
+说明模块之间、前后端之间或外部系统之间如何通信。
 
-## 7. Permission Model
+## 7. 权限模型
 
-Describe roles, access rules, and where permission checks happen.
+说明角色、访问规则，以及权限检查发生的位置。
 
-## 8. Key Decisions
+## 8. 关键决策
 
-Link to ADRs in `docs/decisions/` when decisions become important.
+当决策比较重要时，链接到 `docs/decisions/` 中的 ADR。
 
-## 9. Risks
+## 9. 风险
 
 - 
 
-## 10. Evolution Plan
+## 10. 演进计划
 
-Describe what can stay simple now and what might need to change later.
+说明哪些部分现在可以保持简单，哪些部分后续可能需要调整。
