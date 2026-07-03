@@ -58,10 +58,11 @@ project/
 
 ## 最快使用方式
 
-1. 把本仓库复制到用户级 Skills 目录：
+1. 安装到用户级 Skills 目录：
 
-```text
-~/.agents/skills/ai-tech-lead/
+```bash
+mkdir -p ~/.agents/skills
+git clone https://github.com/mkfire/ai-tech-lead.git ~/.agents/skills/ai-tech-lead
 ```
 
 2. 在 Codex 里输入：
@@ -72,6 +73,37 @@ Use the AI Tech Lead skill.
 ```
 
 3. 如果是在已有项目里使用，可以把 `AGENTS.template.md` 复制到项目根目录，并改名为 `AGENTS.md`。
+
+## 验证是否生效
+
+安装后可以在 Codex 里输入：
+
+```text
+Use the AI Tech Lead skill.
+请说明你会如何处理一个新项目需求。不要写代码。
+```
+
+如果生效，AI 应该先说明会进入 Discovery / 需求澄清阶段，而不是直接生成项目代码。
+
+## 适合使用
+
+- 新项目启动
+- 模块需求澄清
+- 复杂功能设计
+- 权限、数据模型、API 或架构变更
+- Codex 开发前评审
+- AI 生成代码后的 Review
+- 需要控制范围和减少返工的任务
+
+## 不适合使用
+
+- typo、错别字、标点修正
+- 简单文案修改
+- 一行配置修改
+- 明确的小范围样式调整
+- 用户已经完全明确要求直接做的小改动
+
+这些场景可以按轻量模式处理，不需要完整走需求/设计流程。
 
 ## 在 Codex 中使用
 
