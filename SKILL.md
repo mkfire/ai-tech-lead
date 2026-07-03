@@ -190,7 +190,7 @@ project/
 
 ### 5. Task Planning
 
-以下情况使用 `TEMPLATES/task.md` 输出 `docs/tasks/<feature-name>.md`：
+以下情况使用 `CHECKLISTS/task.md` 和 `TEMPLATES/task.md` 输出 `docs/tasks/<module>-<feature>.md`：
 
 - 设计已经被用户确认
 - 任务属于非轻量功能
