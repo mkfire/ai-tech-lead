@@ -1,70 +1,70 @@
-# Design: <Feature or Module Name>
+# 设计方案：<功能或模块名称>
 
-## 1. Requirement Reference
+## 1. 需求引用
 
-Link to the requirement document.
+链接到对应的需求文档。
 
-## 2. Design Goal
+## 2. 设计目标
 
-Describe what this design must achieve.
+说明这个设计必须达成什么目标。
 
-## 3. Proposed Approach
+## 3. 推荐方案
 
-Explain the implementation approach at a high level.
+从高层说明实现思路。
 
-## 4. Module and File Impact
+## 4. 模块与文件影响
 
-| Area | Expected Change |
+| 区域 | 预期改动 |
 |---|---|
 |  |  |
 
-## 5. Interfaces
+## 5. 接口
 
-### API / Function / Command
+### API / 函数 / 命令
 
 ```text
-Name:
-Input:
-Output:
-Errors:
+名称：
+输入：
+输出：
+错误：
 ```
 
-## 6. Data Model
+## 6. 数据模型
 
-Describe entities, fields, schema changes, migrations, indexes, or constraints.
+说明实体、字段、Schema 变更、Migration、索引或约束。
 
-## 7. Flow
+## 7. 流程
 
-### Success Path
+### 成功路径
 
 1. 
 2. 
 3. 
 
-### Failure Paths
+### 失败路径
 
 - 
 
-## 8. Permission and Security
+## 8. 权限与安全
 
 - 
 
-## 9. Test Plan
+## 9. 测试计划
 
-- Unit tests:
-- Integration tests:
-- Manual validation:
+- 单元测试：
+- 集成测试：
+- 人工验证：
 
-## 10. Risks
+## 10. 风险
 
 - 
 
-## 11. Task Breakdown
+## 11. 任务拆分
 
-- [ ] Task 1:
-- [ ] Task 2:
-- [ ] Task 3:
+- [ ] 任务 1：
+- [ ] 任务 2：
+- [ ] 任务 3：
 
-## 12. Review Notes
+## 12. Review 记录
 
-Record user review feedback and changes to the design.
+记录用户对设计的 Review 反馈和方案调整。
