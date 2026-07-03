@@ -1,45 +1,45 @@
 # Project Init Checklist
 
-Use this checklist after discovery, when the project brief is clear enough to choose a structure.
+在 Discovery 完成、项目需求摘要已经足够清楚、可以选择项目结构时，使用这个 Checklist。
 
-## Goal
+## 目标
 
-Initialize a traditional, understandable project structure based on the actual requirement.
+根据真实需求初始化一个传统、清晰、容易理解的项目结构。
 
-## Checkpoints
+## 检查项
 
-### Project Shape
+### 项目形态
 
-- [ ] Is this a simple app, full-stack app, backend service, frontend app, library, CLI, extension, mobile app, or monorepo?
-- [ ] Does it need separate backend and frontend directories?
-- [ ] Does it need `apps/` and `packages/`?
-- [ ] Does it need infrastructure or deployment configuration now?
+- [ ] 这是简单应用、全栈应用、后端服务、前端应用、库、CLI、浏览器插件、移动端应用还是 Monorepo？
+- [ ] 是否需要拆分 `backend/` 和 `frontend/`？
+- [ ] 是否需要 `apps/` 和 `packages/`？
+- [ ] 现在是否需要基础设施或部署配置？
 
-### Documentation
+### 文档
 
-- [ ] Create `AGENTS.md` from `AGENTS.template.md`.
-- [ ] Create `docs/project-brief.md`.
-- [ ] Create `docs/architecture.md`.
-- [ ] Create `docs/requirements/`.
-- [ ] Create `docs/design/`.
-- [ ] Create `docs/decisions/`.
+- [ ] 根据 `AGENTS.template.md` 创建 `AGENTS.md`。
+- [ ] 创建 `docs/project-brief.md`。
+- [ ] 创建 `docs/architecture.md`。
+- [ ] 创建 `docs/requirements/`。
+- [ ] 创建 `docs/design/`。
+- [ ] 创建 `docs/decisions/`。
 
-### Architecture Baseline
+### 架构基线
 
-- [ ] Record project type.
-- [ ] Record technology stack, if chosen.
-- [ ] Record module boundaries.
-- [ ] Record data/storage choice, if known.
-- [ ] Record deployment assumptions, if known.
+- [ ] 记录项目类型。
+- [ ] 记录技术栈，如果已经选择。
+- [ ] 记录模块边界。
+- [ ] 记录数据/存储方案，如果已知。
+- [ ] 记录部署假设，如果已知。
 
-### Scope Control
+### 范围控制
 
-- [ ] Do not generate complex structure before it is needed.
-- [ ] Do not add microservices unless clearly justified.
-- [ ] Do not add queues, cache, Kubernetes, or heavy infrastructure unless the requirement demands it.
-- [ ] Prefer the simplest structure that can support the first version.
+- [ ] 不要在需求不足时生成复杂结构。
+- [ ] 除非明确必要，不要引入微服务。
+- [ ] 除非需求明确要求，不要引入队列、缓存、Kubernetes 或重型基础设施。
+- [ ] 优先选择能支撑第一版的最简单结构。
 
-## Recommended Default Structure
+## 推荐默认结构
 
 ```text
 project/
@@ -53,9 +53,9 @@ project/
 └── src/
 ```
 
-## More Complex Full-stack Structure
+## 更复杂的全栈结构
 
-Use only when needed:
+仅在确实需要时使用：
 
 ```text
 project/
@@ -71,10 +71,10 @@ project/
 └── infra/
 ```
 
-## Output
+## 输出
 
-After initialization, clearly report:
+初始化完成后，清楚报告：
 
-- created files/directories
-- why this structure was selected
-- what the next recommended step is
+- 创建了哪些文件和目录
+- 为什么选择这个结构
+- 下一步建议做什么
