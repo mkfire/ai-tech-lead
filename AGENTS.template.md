@@ -1,25 +1,25 @@
 # AGENTS.md
 
-This project is assisted by the AI Tech Lead workflow.
+本项目使用 AI Tech Lead 工作流辅助开发。
 
-## Project Rule
+## 项目规则
 
-Do not treat AI as a direct code generator. Treat AI as an engineering collaborator that must clarify, design, implement, and review in order.
+不要把 AI 当成直接写代码的工具。应该把 AI 当成工程协作者，必须按“澄清需求 → 输出设计 → 实现代码 → Review 验收”的顺序推进。
 
-## Default Development Flow
+## 默认开发流程
 
-For non-trivial work, follow this sequence:
+对于非简单修改，遵循以下流程：
 
-1. Clarify requirement.
-2. Produce or update design.
-3. Wait for user confirmation when design changes behavior, architecture, API, data model, or permissions.
-4. Implement with minimal changes.
-5. Run available validation.
-6. Summarize changed files, tests, and remaining risks.
+1. 澄清需求。
+2. 输出或更新设计方案。
+3. 当设计会影响行为、架构、API、数据模型或权限时，等待用户确认。
+4. 用最小改动实现。
+5. 运行可用的验证步骤。
+6. 总结修改文件、测试结果和剩余风险。
 
-## Documentation Structure
+## 文档结构
 
-Use the traditional project documentation layout:
+使用传统项目文档结构：
 
 ```text
 docs/
@@ -30,40 +30,40 @@ docs/
 └── decisions/
 ```
 
-## Requirement Rules
+## 需求规则
 
-- Requirements are the long-term source of truth.
-- If a requirement is unclear, ask before coding.
-- Requirements should include actors, scope, behavior, permissions, edge cases, and acceptance criteria.
+- 需求是长期维护的事实来源。
+- 如果需求不清楚，先提问，不要直接写代码。
+- 需求应包含使用者、范围、行为、权限、边界情况和验收标准。
 
-## Design Rules
+## 设计规则
 
-- Designs are required for complex changes.
-- Designs should explain modules, interfaces, data model, flow, risks, and test strategy.
-- If design conflicts with requirements, requirements win.
+- 复杂修改必须先有设计方案。
+- 设计应说明模块、接口、数据模型、流程、风险和测试策略。
+- 如果设计与需求冲突，以需求为准。
 
-## Coding Rules
+## 编码规则
 
-- Make the smallest safe change.
-- Do not modify unrelated modules.
-- Do not perform opportunistic refactors.
-- Preserve existing behavior unless the requirement says otherwise.
-- Add or update tests when practical.
+- 做最小安全改动。
+- 不修改无关模块。
+- 不做顺手重构。
+- 除非需求明确要求，否则保持现有行为不变。
+- 在可行时补充或更新测试。
 
-## Review Rules
+## Review 规则
 
-Before considering work complete, check:
+完成前检查：
 
-- requirement match
-- design match
-- scope control
-- permissions and security
-- edge cases
-- tests or validation
-- documentation impact
+- 是否满足需求
+- 是否符合设计
+- 是否控制了范围
+- 权限和安全是否正确
+- 边界情况是否覆盖
+- 是否完成测试或验证
+- 是否需要更新文档
 
-## User Override
+## 用户覆盖规则
 
-The user may choose to skip a recommended stage.
+用户可以选择跳过某个推荐阶段。
 
-If they do, clearly state the skipped stage, the risk, and the safest minimal next step.
+如果用户选择跳过，必须清楚说明被跳过的阶段、对应风险，以及最安全的最小下一步。
