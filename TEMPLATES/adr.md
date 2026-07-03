@@ -1,41 +1,41 @@
-# ADR-XXXX: <Decision Title>
+# ADR-XXXX：<决策标题>
 
-## Status
+## 状态
 
-Proposed | Accepted | Rejected | Superseded
+提议中 | 已接受 | 已拒绝 | 已被替代
 
-## Context
+## 背景
 
-What situation or problem requires a decision?
+什么情况或问题需要做出这个决策？
 
-## Decision
+## 决策
 
-What decision was made?
+最终做出了什么决策？
 
-## Why
+## 原因
 
-Why was this decision made?
+为什么做出这个决策？
 
-## Alternatives Considered
+## 备选方案
 
-### Option A
+### 方案 A
 
-- Pros:
-- Cons:
+- 优点：
+- 缺点：
 
-### Option B
+### 方案 B
 
-- Pros:
-- Cons:
+- 优点：
+- 缺点：
 
-## Consequences
+## 影响
 
-- Positive:
-- Negative:
-- Follow-up work:
+- 正面影响：
+- 负面影响：
+- 后续工作：
 
-## Related Documents
+## 相关文档
 
-- Requirement:
-- Design:
-- Issue/PR:
+- 需求：
+- 设计：
+- Issue / PR：
