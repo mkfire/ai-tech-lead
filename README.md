@@ -1,46 +1,46 @@
 # AI Tech Lead
 
-AI Tech Lead is a lightweight Engineering Manager skill/playbook for AI-assisted software development.
+AI Tech Lead 是一个轻量级的 AI 工程负责人 Skill / Playbook，用于辅助 AI 参与软件工程开发。
 
-It is designed to work with Codex first, while keeping the method generic enough to adapt to Cursor, Claude Code, or other AI coding tools later.
+它优先适配 Codex，同时保持方法足够通用，后续也可以迁移到 Cursor、Claude Code 或其他 AI Coding 工具。
 
-## Goal
+## 目标
 
-Help users move from a vague idea to a development-ready plan, then guide AI coding tools through requirement, design, implementation, and review.
+帮助用户从一个模糊想法出发，逐步形成可开发的需求与技术方案，然后再引导 AI Coding 工具按“需求 → 设计 → 开发 → Review”的方式推进。
 
-AI Tech Lead is not another code generator. It is a lightweight engineering layer that helps AI coding tools behave more like a careful technical lead:
+AI Tech Lead 不是另一个代码生成器，而是一层轻量的工程化约束，让 AI Coding 工具更像一个谨慎的技术负责人：
 
-- clarify requirements before coding
-- recommend project structure based on actual needs
-- produce design before implementation
-- control scope and risk
-- review outputs against requirements
-- keep project documents simple and traditional
+- 写代码前先澄清需求
+- 根据真实需求推荐项目结构
+- 实现前先输出设计方案
+- 控制开发范围和风险
+- 按需求检查开发结果
+- 保持项目文档简单、传统、易理解
 
-## Recommended Form
+## 推荐形态
 
-Use this repository as a Codex Skill plus a project `AGENTS.md` template.
+这个仓库推荐作为 Codex Skill 使用，同时提供项目级 `AGENTS.md` 模板。
 
-- `SKILL.md` defines the core AI Tech Lead behavior.
-- `CHECKLISTS/` defines stage-by-stage engineering checks.
-- `TEMPLATES/` defines reusable document formats.
-- `AGENTS.template.md` can be copied into a project root as `AGENTS.md`.
+- `SKILL.md` 定义 AI Tech Lead 的核心行为。
+- `CHECKLISTS/` 定义各阶段的工程检查清单。
+- `TEMPLATES/` 定义可复用的文档模板。
+- `AGENTS.template.md` 可以复制到项目根目录并改名为 `AGENTS.md`。
 
-## V1 Scope
+## V1 范围
 
-V1 focuses on a practical, low-friction workflow:
+V1 聚焦一个实用、低成本的开发流程：
 
-1. Discovery: clarify the project idea.
-2. Project Brief: summarize the real requirement.
-3. Project Init: recommend and initialize a traditional project structure.
-4. Requirement: refine module-level requirements.
-5. Design: produce a reviewable implementation plan.
-6. Coding: guide AI implementation only after design is ready.
-7. Review: check the result against requirement, design, risk, and tests.
+1. Discovery：澄清项目想法。
+2. Project Brief：整理项目需求摘要。
+3. Project Init：根据需求推荐并初始化传统项目结构。
+4. Requirement：细化模块级需求。
+5. Design：输出可 Review 的实现方案。
+6. Coding：设计确认后再引导 AI 实现。
+7. Review：按需求、设计、风险和测试检查结果。
 
-V1 intentionally does not include a CLI, GitHub App, VS Code extension, multi-agent scheduler, or complex state engine. Those can come later after the method is validated.
+V1 暂时不包含 CLI、GitHub App、VS Code 插件、多 Agent 调度器或复杂状态引擎。这些可以在方法验证后再做。
 
-## Suggested Repository Structure After Initialization
+## 初始化后的推荐项目结构
 
 ```text
 project/
@@ -54,21 +54,21 @@ project/
 └── src/
 ```
 
-Keep the project familiar. Put the intelligence in the skill, not in a strange project structure.
+让项目结构保持熟悉。把复杂逻辑放在 Skill 里，而不是暴露成奇怪的项目目录。
 
-## How to Use with Codex
+## 在 Codex 中使用
 
-### Option A: User-level Skill
+### 方式 A：用户级 Skill
 
-Copy this repository or the skill folder into your user skills directory:
+把这个仓库或 Skill 目录复制到你的用户级 Skills 目录：
 
 ```text
 ~/.agents/skills/ai-tech-lead/
 ```
 
-### Option B: Repository-level Skill
+### 方式 B：仓库级 Skill
 
-Copy the skill into a project repository:
+把 Skill 复制到某个项目仓库中：
 
 ```text
 project/
@@ -77,20 +77,20 @@ project/
         └── ai-tech-lead/
 ```
 
-### Recommended First Prompt
+### 推荐的首次使用 Prompt
 
 ```text
 Use the AI Tech Lead skill.
-I want to build a new project. First help me clarify the requirement, then recommend the project structure and technical plan. Do not write application code yet.
+我想做一个新项目。请先帮我澄清需求，再推荐项目结构和技术方案。暂时不要写业务代码。
 ```
 
-### Recommended Feature Prompt
+### 推荐的功能开发 Prompt
 
 ```text
 Use the AI Tech Lead skill.
-I want to develop <feature/module name>. Do not write code first. Start with requirement clarification, then produce a design for review.
+我想开发 <功能/模块名称>。请先不要写代码，先帮我澄清需求，然后输出设计方案供我确认。
 ```
 
-## Core Principle
+## 核心原则
 
-Do not write code first. Drive the project first.
+不要先写代码。先推进项目。
