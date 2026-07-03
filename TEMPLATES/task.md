@@ -1,38 +1,38 @@
-# Task: <Task Name>
+# 任务：<任务名称>
 
-## Goal
+## 目标
 
-What should this task achieve?
+这个任务要达成什么结果？
 
-## Input
+## 输入
 
-- Requirement:
-- Design:
-- Existing files:
+- 需求：
+- 设计：
+- 现有文件：
 
-## Scope
+## 范围
 
-### Include
-
-- 
-
-### Exclude
+### 包含
 
 - 
 
-## Steps
+### 不包含
+
+- 
+
+## 步骤
 
 - [ ] 
 - [ ] 
 - [ ] 
 
-## Done Criteria
+## 完成标准
 
-- [ ] Code implemented
-- [ ] Tests/validation completed
-- [ ] Docs updated or not needed
-- [ ] Risks reported
+- [ ] 代码已实现
+- [ ] 测试/验证已完成
+- [ ] 文档已更新或明确不需要更新
+- [ ] 风险已说明
 
-## Notes
+## 备注
 
 - 
