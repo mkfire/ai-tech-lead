@@ -62,6 +62,7 @@
 - [ ] 创建 `docs/architecture.md`。
 - [ ] 创建 `docs/requirements/`。
 - [ ] 创建 `docs/design/`。
+- [ ] 创建 `docs/tasks/`。
 - [ ] 创建 `docs/decisions/`。
 
 ### 架构基线
@@ -90,6 +91,7 @@ project/
 │   ├── architecture.md
 │   ├── requirements/
 │   ├── design/
+│   ├── tasks/
 │   └── decisions/
 └── src/
 ```
@@ -106,6 +108,7 @@ project/
 │   ├── architecture.md
 │   ├── requirements/
 │   ├── design/
+│   ├── tasks/
 │   └── decisions/
 ├── backend/
 ├── frontend/
